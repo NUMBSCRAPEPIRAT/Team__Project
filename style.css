@@ -1,14 +1,29 @@
-*{padding: 0;
+* {
+    padding: 0;
 margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 body{
     background: url(./img/Background.svg);
-}
-header.div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 15px;
     box-sizing: border-box;
+}
+header {
     background: url(./img/header_back.svg);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .rigth_side {
+    display: flex;
 }
