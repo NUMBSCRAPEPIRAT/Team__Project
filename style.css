@@ -7,8 +7,14 @@ a {
     text-decoration: none;
 }
 
+.left_side {
+    display: flex;
+padding-right: 15px;
+}
+
 li {
     list-style: none;
+    padding-left: 35px;
 }
 
 body{
@@ -16,12 +22,17 @@ body{
     box-sizing: border-box;
 }
 header {
-    background: url(./img/header_back.svg);
+    background: #002b51;
+    background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+    background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+    
 }
 
 header ul {
     display: flex;
     justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 header .rigth_side {
