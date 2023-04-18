@@ -25,6 +25,7 @@ header {
     background: #002b51;
     background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
     background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+    margin-bottom: 65px;
     
 }
 
@@ -37,4 +38,11 @@ header ul {
 
 header .rigth_side {
     display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+
 }
